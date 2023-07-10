@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Element Extractor</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <h2>Quick Element Extractor</h2>
+  <label for="current-url">Current URL:</label>
+  <input type="text" id="current-url" disabled>
+  <br>
+  <label for="save-folder">Save Folder:</label>
+  <input type="text" id="save-folder">
+  <br>
+  <label for="json-file">JSON File Name:</label>
+  <input type="text" id="json-file">
+  <br>
+  <button id="start-button" disabled>Start</button>
+  <button id="stop-button" disabled>Stop</button>
+  <br>
+  <table id="element-table">
+    <tr>
+      <th>Title</th>
+      <th>Bounding Box</th>
+      <th>Location</th>
+      <th>Selectors</th>
+      <th>Type</th>
+      <!-- Add other relevant table headers -->
+    </tr>
+  </table>
+
+  <script src="popup.js"></script>
+</body>
+</html>
